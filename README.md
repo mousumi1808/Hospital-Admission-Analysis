@@ -17,9 +17,15 @@ Key Insights & Conclusion:
 - Patients weighing between 75-100 kg are getting readmitted is more than any other category.
 - Encounters involving higher medication counts tend to have longer stays. Additionally, readmitted patients consistently exhibit longer lengths of stay for comparable medication levels, indicating greater clinical complexity. This suggests that medication volume can serve as an important predictor of both prolonged hospitalization and readmission risk.
 
-Detailed analysis in the code attached in folder.
+Challenges Faced :
+- Missing values and inconsistent patient records required careful cleaning.
+- Medical variables showed skewed distributions, complicating direct statistical interpretation.
+- Identifying meaningful drivers of readmission required combining clinical and demographic features.
+- Translating analytical results into actionable healthcare recommendations required domain-aware reasoning.
 
-## 🛠️ Skills Demonstrated
+Detailed analysis in  code attached in the folder.
+
+ Skills Demonstrated
 
 - Data Cleaning & Preprocessing
 - Exploratory Data Analysis (EDA)
@@ -29,9 +35,19 @@ Detailed analysis in the code attached in folder.
 - power bi Dashboard Development
 - Problem Solving
 
----
+Recommendation :
+Patient Care Improvement
+- Implement post-discharge follow-up programs for high-risk patients.
+- Provide personalized care plans for patients with repeated admissions.
+- Strengthen discharge readiness assessments.
 
-## 📌 Tools & Technologies
+Operational Strategy :
+
+- Prioritize resources for patients with extended hospital stays.
+- Improve coordination between inpatient and outpatient care teams.
+- Introduce early intervention programs for vulnerable age groups.
+
+Tools & Technologies
 
 - Python
 - Pandas
