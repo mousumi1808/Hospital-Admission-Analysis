@@ -23,6 +23,62 @@ Challenges Faced :
 - Identifying meaningful drivers of readmission required combining clinical and demographic features.
 - Translating analytical results into actionable healthcare recommendations required domain-aware reasoning.
 
+Sql code :
+--create database hospitaladmission
+
+create table hospitaladmissionanalysis(patient_id varchar(20),
+        index1 varchar(20),
+        encounter_id varchar(20),
+        race varchar(20),
+        gender varchar(20),
+        age smallint,
+        weight1 varchar(20),
+        time_in_hospital smallint,
+        medical_specialty varchar(20),
+        num_lab_procedures smallint,
+        num_procedures smallint,
+        num_medications smallint,
+        number_outpatient smallint,
+        number_emergency smallint,
+        number_inpatient smallint,
+        
+        diag_1 float,
+        diag_2 float,
+        diag_3 float,
+        diag_4 float,
+        diag_5 float,
+        number_diagnoses smallint,
+        X1 varchar(20),
+		X2 varchar(20),
+		X3 varchar(20),
+		X4 varchar(20),
+		X5 varchar(20),
+       X6 varchar(20),
+	   X7 varchar(20),
+	   X8 varchar(20),
+	   X9 varchar(20),
+	   X10 varchar(20),
+	   X11 varchar(20),
+	   X12 varchar(20),
+	   X13 varchar(20),
+	   X14 varchar(20),
+	   X15 varchar(20),
+	   X16 varchar(20),
+       X17 varchar(20),
+	   X18 varchar(20),
+	   X19 varchar(20),
+	   X20 varchar(20),
+	   X21 varchar(20),
+	   X22 varchar(20),
+	   X23 varchar(20),
+	   X24 varchar(20),
+	   X25 varchar(20),
+	   change1 varchar(20),
+       diabetesMed varchar(20),
+	   readmitted smallint,
+       comorbidity_score float
+)
+
 Detailed analysis in  code attached in the folder.
 
  Skills Demonstrated
@@ -33,6 +89,7 @@ Detailed analysis in  code attached in the folder.
 - Data Visualization
 - Business Insight Generation
 - power bi Dashboard Development
+- sql server
 - Problem Solving
 
 Recommendation :
